@@ -19,3 +19,7 @@ Disallow: /s3cr3t/
 >http://natas3.natas.labs.overthewire.org/s3cr3t/
 #### `users.txt` file will provide the next password
 #### Password - Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+
+### Level 4-5
+#### When we login we are prompted with the unauthorised route used. To make changes to the route, we can fire up Burp Suite and intercept the request. In the requests we can see a field named Referrer, we can change the value to http://natas5.natas.labs.overthewire.org/. Once we forward this request, the access is granted
+#### Password - iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq 
